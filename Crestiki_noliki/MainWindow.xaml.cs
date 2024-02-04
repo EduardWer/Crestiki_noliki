@@ -203,7 +203,11 @@ namespace Crestiki_noliki
                 StartGame();
 
             }
-
+            if(!Button1.IsEnabled && !button2.IsEnabled &&  !button3.IsEnabled && !button4.IsEnabled && !button5.IsEnabled && !button6.IsEnabled &&  !button7.IsEnabled && !button8.IsEnabled && !button9.IsEnabled)
+            {
+                MessageBox.Show("Ничья");
+                StartGame();
+            }
 
 
 
